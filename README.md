@@ -5,7 +5,7 @@ This project performs exploratory data analysis (EDA) on Highly Pathogenic Avian
 ---
 
 ## Project Structure
-
+```
 HPAI_WILD_BIRDS_DATA_ANALYSIS/
 ├── data/
 │ ├── cleaned_usda_hpai_wildbirds.csv
@@ -13,7 +13,7 @@ HPAI_WILD_BIRDS_DATA_ANALYSIS/
 ├── eda_on_usda_HPAI_wild_birds.ipynb
 ├── README.md
 └── requirements.txt
-
+```
 ---
 
 ## Features
