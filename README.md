@@ -1,3 +1,83 @@
+# HPAI Wild Birds Data Analysis (USDA)
+
+This project performs exploratory data analysis (EDA) on Highly Pathogenic Avian Influenza (HPAI) detections in wild birds using publicly available data from the USDA. It includes automated data ingestion, data cleaning, and visualizations to uncover trends in species, geography, and seasonality of outbreaks.
+
+---
+
+## Project Structure
+
+HPAI_WILD_BIRDS_DATA_ANALYSIS/
+├── data/
+│ ├── cleaned_usda_hpai_wildbirds.csv
+│ └── manual_usda_hpai_detections_wild_birds.csv
+├── eda_on_usda_HPAI_wild_birds.ipynb
+├── README.md
+└── requirements.txt
+
+---
+
+## Features
+
+- **Automated data download** from USDA's backend CSV link
+- **One-time validation** to compare manual vs automated datasets
+- **Data cleaning**: standardizing column names, parsing dates, handling missing values
+- **Visualizations**:
+  - Daily HPAI detection trends
+  - Top bird species and states affected
+  - Seasonal detection patterns by month
+  - Year-over-year detection totals
+  - Heatmap of detections by month and year
+
+---
+
+## Sample Visualizations
+
+- Line plot of detections over time  
+- Bar charts of top species and top states  
+- Monthly trends  
+- Yearly bar chart  
+- Heatmap
+
+---
+
+## Requirements
+
+Install dependencies using:
+
+```bash
+pip install -r requirements.txt
+
+---
+
+## How to Reproduce
+```
+1. **Clone the repository:**
+   ```
+   git clone https://github.com/your-username/hpai-wild-birds-eda.git
+   cd hpai-wild-birds-eda
+   `
+
+2. **(Optional)** 
+   
+   Manually download the USDA csv file to validate the automated version:
+   - Visit: [USDA HPAI Wild Birds Dataset] (https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-influenza/hpai-detections/wild-birds)
+   - Scroll down and click the blue CSV button
+   - Save the file to:
+   data/manual_usda_hpai_detections_wild_birds.csv
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # HPAI Wild Birds Data Analysis
 
 ## Project Overview
