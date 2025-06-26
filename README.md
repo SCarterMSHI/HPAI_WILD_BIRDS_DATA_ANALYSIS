@@ -1,9 +1,10 @@
 # HPAI Wild Birds Data Analysis (USDA)
 
 This project performs exploratory data analysis (EDA) on Highly Pathogenic Avian Influenza (HPAI) detections in wild birds using publicly available data from the USDA. It automates the ingestion of the latest dataset, validates it against a manually downloaded version, cleans the data, and visualizes trends in species, geography, and seasonality of outbreaks. The notebook provides reproducible, policy-relevant insights to support public health and environmental monitoring.
+### 🔗 GitHub Repository  
+https://github.com/stacycart/hpai_wild_birds_data_analysis
 
 ---
-
 ## Project Structure
 ```
 HPAI_WILD_BIRDS_DATA_ANALYSIS/
